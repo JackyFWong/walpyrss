@@ -10,7 +10,7 @@ image from a subreddit RSS feed (rss).
 ## Notes
 - DOES NOT SORT BY NSFW POSTS. BE WARNED.
 - Currently this pulls from r/moescape/top by month. Chanage the url under 
-`get_img()` to what subreddit you want.
+`RSSURL` to what subreddit you want.
     - Default: `https://www.reddit.com/r/[subreddit]/.rss`
     - Default with sorting: `https://www.reddit.com/r/[subreddit]/[hot/top/new].rss`
     - Specified duration, top sorting: 
