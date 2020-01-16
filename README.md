@@ -2,6 +2,10 @@
 A program that sets your wallpaper (wal), written in Python (py), from an 
 image from a subreddit RSS feed (rss).
 
+## To Do
+- Add support for command line arguments
+- Add support for KDE Plasma DE
+
 ## Dependencies
 - `feedparser` for parsing through the RSS feed
 - `beautifulsoup` for finding the image url from the RSS entry
