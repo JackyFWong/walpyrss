@@ -8,8 +8,9 @@ image from a subreddit RSS feed (rss).
 
 ## Dependencies
 - `feedparser` for parsing through the RSS feed
-- `beautifulsoup` for finding the image url from the RSS entry
-- `feh` to set background
+- `bs4` for finding the image url from the RSS entry
+- `pillow` for the Python Imaging Library
+- `feh` to set background (if you use feh)
 
 ## Notes
 - DOES NOT SORT BY NSFW POSTS. BE WARNED.
